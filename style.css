@@ -22,7 +22,7 @@ body{
     background: hsl(0, 0%, 50%);
     color: white;
     margin-bottom: 5px;
-    text-align: left;
+    text-align: right;
 }
 #Keys{
     display: grid;
