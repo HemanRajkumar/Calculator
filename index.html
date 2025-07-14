@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate Me!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <input type="text" name="Calculate" class="input">
+        <div id="Keys">
+            <button class="C operators" onclick="ClearMe()">C</button>
+            <button class="X operators" onclick="BackSpace()">&#9003</button>
+            <button class="divide operators" onclick="AddToInput('/')">/</button>
+            <button class="mul operators" onclick="AddToInput('*')">*</button>
+            <button class="seven" onclick="AddToInput('7')">7</button>
+            <button class="eight" onclick="AddToInput('8')">8</button>
+            <button class="nine" onclick="AddToInput('9')">9</button>
+            <button class="sub operators" onclick="AddToInput('-')">-</button>
+            <button class="four" onclick="AddToInput('4')">4</button>
+            <button class="five" onclick="AddToInput('5')">5</button>
+            <button class="six" onclick="AddToInput('6')">6</button>
+            <button class="add operators" onclick="AddToInput('+')">+</button>
+            <button class="one" onclick="AddToInput('1')">1</button>
+            <button class="two" onclick="AddToInput('2')">2</button>
+            <button class="three" onclick="AddToInput('3')">3</button>
+            <button class="equal operators" onclick="Calculate()">=</button>
+            <button class="zero" onclick="AddToInput('0')">0</button>
+            <button class="decimal" onclick="AddToInput('.')">.</button>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
